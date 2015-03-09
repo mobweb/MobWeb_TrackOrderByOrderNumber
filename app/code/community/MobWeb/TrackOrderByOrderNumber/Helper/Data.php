@@ -31,6 +31,9 @@ class MobWeb_TrackOrderByOrderNumber_Helper_Data extends Mage_Core_Helper_Abstra
 			'United States Postal Service' => 'https://tools.usps.com/go/TrackConfirmAction.action?tRef=fullpage&tLc=1&text28777=&tLabels=%s',
 			'DHL' => 'http://www.dhl.com/en/express/tracking.html?AWB=%s&brand=DHL',
 			'Swiss Post' => 'https://www.post.ch/post-startseite/post-geschaeftskunden/post-track-and-trace-search-gk.htm?formattedParcelCodes=%s&directSearch=false&VTI-GROUP=1',
+			'Schweizerische Post' => 'https://www.post.ch/post-startseite/post-geschaeftskunden/post-track-and-trace-search-gk.htm?formattedParcelCodes=%s&directSearch=false&VTI-GROUP=1',
+			'Poste Suisse' => 'https://www.post.ch/post-startseite/post-geschaeftskunden/post-track-and-trace-search-gk.htm?formattedParcelCodes=%s&directSearch=false&VTI-GROUP=1',
+			'Posta Svizzera' => 'https://www.post.ch/post-startseite/post-geschaeftskunden/post-track-and-trace-search-gk.htm?formattedParcelCodes=%s&directSearch=false&VTI-GROUP=1',
 
 			// Add your own URL schemes here, replacing the part with the tracking number with %s
 		);
