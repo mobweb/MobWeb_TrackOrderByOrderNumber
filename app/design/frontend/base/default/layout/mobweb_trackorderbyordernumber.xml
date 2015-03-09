@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<trackorderbyordernumber_index_index>
+		<reference name="content">
+			<block type="trackorderbyordernumber/index" name="mobweb_trackorderbyordernumber_index" template="mobweb_trackorderbyordernumber/trackorderbyordernumber.phtml" />
+		</reference>
+	</trackorderbyordernumber_index_index>
+</layout>

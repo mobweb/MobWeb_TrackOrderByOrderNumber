@@ -1,0 +1,13 @@
+app/code/community/MobWeb/TrackOrderByOrderNumber app/code/community/MobWeb/TrackOrderByOrderNumber/
+
+app/design/frontend/base/default/layout/mobweb_trackorderbyordernumber.xml app/design/frontend/base/default/layout/mobweb_trackorderbyordernumber.xml
+
+app/design/frontend/base/default/template/mobweb_trackorderbyordernumber/ app/design/frontend/base/default/template/mobweb_trackorderbyordernumber/
+
+app/locale/de_CH/MobWeb_TrackOrderByOrderNumber.csv app/locale/de_CH/MobWeb_TrackOrderByOrderNumber.csv
+app/locale/de_DE/MobWeb_TrackOrderByOrderNumber.csv app/locale/de_DE/MobWeb_TrackOrderByOrderNumber.csv
+
+app/etc/modules/MobWeb_TrackOrderByOrderNumber.xml app/etc/modules/MobWeb_TrackOrderByOrderNumber.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

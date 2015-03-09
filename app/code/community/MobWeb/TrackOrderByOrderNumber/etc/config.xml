@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_TrackOrderByOrderNumber>
+            <version>0.1.0</version>
+        </MobWeb_TrackOrderByOrderNumber>
+    </modules>
+    <global>
+        <blocks>
+            <trackorderbyordernumber>
+                <class>MobWeb_TrackOrderByOrderNumber_Block</class>
+            </trackorderbyordernumber>
+        </blocks>
+        <models>
+            <trackorderbyordernumber>
+                <class>MobWeb_TrackOrderByOrderNumber_Model</class>
+            </trackorderbyordernumber>
+        </models>
+        <helpers>
+            <trackorderbyordernumber>
+                <class>MobWeb_TrackOrderByOrderNumber_Helper</class>
+            </trackorderbyordernumber>
+        </helpers>
+        <events>
+            <!-- Debugging observer -->
+            <!--
+            <controller_front_init_before>
+                <observers>
+                    <brandturnover>
+                        <class>brandturnover/observer</class>
+                        <method>captureOrderSave</method>
+                        <type>singleton</type>
+                    </brandturnover >
+                </observers>
+            </controller_front_init_before>
+            -->
+        </events>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <trackorderbyordernumber>
+                    <files>
+                        <default>MobWeb_TrackOrderByOrderNumber.csv</default>
+                    </files>
+                </trackorderbyordernumber>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <trackorderbyordernumber>
+                    <file>mobweb_trackorderbyordernumber.xml</file>
+                </trackorderbyordernumber>
+            </updates>
+        </layout>
+        <routers>
+            <trackorderbyordernumber>
+                <use>standard</use>
+                <args>
+                    <module>MobWeb_TrackOrderByOrderNumber</module>
+                    <frontName>trackorderbyordernumber</frontName>
+                </args>
+            </trackorderbyordernumber>
+        </routers>
+    </frontend>
+</config>

@@ -1,0 +1,26 @@
+<div class="page-title">
+    <h1><?php echo $this->__('Track your order'); ?></h1>
+</div>
+<form action="<?=$this->getUrl('*/*/post')?>" id="orderTrackingForm" method="post">
+    <div class="fieldset">
+        <h2 class="legend"><?php echo $this->__('Order Information'); ?></h2>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="number" class="required"><em>*</em><?php echo $this->__('Order or tracking number'); ?></label>
+                    <div class="input-box">
+                        <input name="number" id="number" title="<?php echo $this->__('Order or tracking number'); ?>" value="" class="input-text required-entry" type="text">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+        <p class="required"><?php echo $this->__('* Required Fields'); ?></p>
+        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;">
+        <button type="submit" title="Absenden" class="button"><span><span><?php echo $this->__('Submit'); ?></span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+    var orderTrackingForm = new varienForm('orderTrackingForm');
+</script>
