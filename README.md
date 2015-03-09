@@ -2,6 +2,8 @@
 
 A simple form that allows the user to enter an order number. If a tracking number has been added to this order, the user will be redirected to the tracking URL on the carrier's website.
 
+The form is available at ```http://your-shop.com/trackorderbyordernumber/```.
+
 ## Installation
 
 Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman/).
